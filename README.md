@@ -11,10 +11,14 @@ Declare totalSteps as Integer
 Declare activityNotes as String
 
 //Loop for multiple days of step tracking for each day in trackingPeriod 
+
 Do
 For each day in trackingPeriod 
 Do
+
+
 //Input step data
+
 Print "Enter date (YYYY-MM-DD)"
 Input Day
 
@@ -24,10 +28,14 @@ Input morning steps
 Print "Enter afternoon Steps"
 Input afternoon steps
 
+
 //calculate total steps
+
 totalSteps=morningSteps + afaternoonsteps
 
+
 //Input activity notes
+
 Print "Enter Activity Notes"
 Input activityNotes
 
