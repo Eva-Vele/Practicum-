@@ -1,5 +1,9 @@
 Pseudocode for the app
+
+
 start
+
+
 //Initialize variables
 Declare day as String
 Declare morningSteps, afternoonSteps as Integer
